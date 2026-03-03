@@ -271,6 +271,8 @@ class StatusObserver {
     this.addPlatform('twilio', 'Twilio', 'https://status.twilio.com/api/v2/summary.json', 'Cloud communications');
     this.addPlatform('vercel', 'Vercel', 'https://www.vercel-status.com/api/v2/summary.json', 'Frontend deployment platform');
     this.addPlatform('x', 'X', this.xApiUrl, 'Social media platform');
+    this.addPlatform('netsuite', 'Netsuite', 'https://status.netsuite.com/api/v2/summary.json', 'ERP');
+    this.addPlatform('shopify', 'Shopify', 'https://www.shopifystatus.com/api/v2/summary.json', 'Ecommerce platform');
   }
 
   private addPlatform(id: string, name: string, url: string, description: string) {
